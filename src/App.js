@@ -1,6 +1,7 @@
 
 import {BrowserRouter, Routes, Route,} from "react-router-dom"
-import React, {useEffect} from "react"
+import React from "react"
+import './App.scss'
 // import {authRoutes} from "pages/auth/authRoutes";
 import {HomePageRoute} from '../src/containers/HomePage/HomePageRoute'
 
