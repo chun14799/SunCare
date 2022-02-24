@@ -8,7 +8,7 @@ const Specialty = () => {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 3,
     arrows: true
   };
@@ -18,7 +18,7 @@ const Specialty = () => {
       <div className="container">
         <div className="Specialty_content">
           <div className="Specialty_title">
-            <h2>Chuyên khoa phổ biến haha</h2>
+            <h2>Chuyên khoa phổ biến</h2>
           </div>
           <div className="Specialty_slider">
             <Slider {...settings} className="slider">

@@ -1,0 +1,45 @@
+.MedicalFacility {
+    background: #f5f5f5;
+    border-bottom: 3px solid #efeef5;
+    .container {
+      .MedicalFacility_content {
+        padding-top: 20px;
+        padding-bottom: 30px;
+        position: relative;
+        .MedicalFacility_title {
+          margin-bottom: 20px;
+          h2 {
+            font-size: 24px;
+            font-weight: bold;
+            padding: 15px 0px 5px 0px;
+          }
+        }
+        .MedicalFacility_slider {
+          margin-top: 20px;
+          .slider {
+            .slick-slide {
+            }
+            .slider_item {
+              a {
+                .slider_img {
+                  width: 100%;
+                  height: 100%;
+                  img {
+                    width: 95%;
+                    height: 95%;
+                  }
+                }
+              }
+              height: 200px;
+              h3 {
+                color: #111;
+                padding: 5px 0;
+                font-size: 16px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

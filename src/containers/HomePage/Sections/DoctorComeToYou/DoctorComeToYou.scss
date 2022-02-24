@@ -1,0 +1,43 @@
+.container {
+  overflow: hidden;
+  width: 100%;
+  padding: 0 auto;
+  margin: 0 auto;
+  .content_margin_left {
+    margin-left: 5vw;
+    position: relative;
+    .section {
+      height: 54vw;
+      .video {
+        position: absolute;
+        top: 0;
+        right: -20px;
+        .video-player {
+          width: 65vw !important;
+          height: calc(65vw / 1500 * 1080) !important;
+        }
+      }
+      .video-cover {
+        position: absolute;
+        top: 0;
+        right: -20px;
+        img {
+          width: 67vw;
+        }
+      }
+      .dcty-info {
+        position: absolute;
+        top: 21vw;
+        left: 0 !important;
+        .title {
+          h2 {
+            font-size: 48px;
+            line-height: 53px;
+            color: #111c63;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
