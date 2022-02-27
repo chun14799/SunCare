@@ -16,8 +16,28 @@
       }
       .Specialty_slider {
         margin-top: 20px;
+        position: relative;
         .slider {
-          .slick-slide {
+          .slick-arrow{
+            width: 50px !important;
+            height: 50px !important;
+            // text-align: center !important;
+            opacity: 0.5;
+            &:hover{
+              opacity: 1;
+            }
+            &:before{
+              color: #333 !important;
+              font-size: 40px;
+            }
+          }
+          .slick-next{
+            position: absolute;
+            right: -40px;
+          }
+          .slick-prev{
+            position: absolute;
+            left: -55px;
           }
           .slider_item {
             a {

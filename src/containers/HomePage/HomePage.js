@@ -5,6 +5,8 @@ import Specialty from "./Sections/Specialty/Specialty"
 import DoctorComeToYou from "./Sections/DoctorComeToYou/DoctorComeToYou"
 import MedicalFacility from "./Sections/MedicalFacility/MedicalFacility"
 import OutStandingDoctor from "./Sections/OutStandingDoctor/OutStandingDoctor"
+import Pharmacy from "./Sections/Pharmacy/Pharmacy"
+import DoctorTeam from "./Sections/DoctorTeam/DoctorTeam"
 
 
 const HomePage = () => {
@@ -12,10 +14,12 @@ const HomePage = () => {
         <div>
             <HomeHeader></HomeHeader>
             <HomeBanner></HomeBanner>
+            <DoctorComeToYou></DoctorComeToYou>
+            <Pharmacy></Pharmacy>
+            <DoctorTeam></DoctorTeam>
             <Specialty></Specialty>
             <MedicalFacility></MedicalFacility>
             <OutStandingDoctor></OutStandingDoctor>
-            {/* <DoctorComeToYou></DoctorComeToYou> */}
         </div>
     )
 }

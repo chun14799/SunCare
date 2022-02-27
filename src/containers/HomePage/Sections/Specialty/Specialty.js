@@ -9,8 +9,9 @@ const Specialty = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 3,
-    arrows: true
+    slidesToScroll: 1,
+    arrows: true,
+    accessibility: true
   };
 
   return (

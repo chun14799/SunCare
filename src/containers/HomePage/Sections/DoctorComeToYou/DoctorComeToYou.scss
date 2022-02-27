@@ -1,10 +1,10 @@
 .container {
-  overflow: hidden;
+  // overflow: hidden;
   width: 100%;
   padding: 0 auto;
   margin: 0 auto;
   .content_margin_left {
-    margin-left: 5vw;
+    margin-left: 1vw;
     position: relative;
     .section {
       height: 54vw;
@@ -34,7 +34,32 @@
             font-size: 48px;
             line-height: 53px;
             color: #111c63;
-            font-weight: 400;
+            font-weight: bold;
+          }
+        }
+        .line{
+          margin-top: 30px;
+          background-color: #2320D4;
+          width: 70px;
+          height: 8px;
+          border-radius: 10px;
+        }
+        .price{
+          margin-top: 18px;
+          font-size: 18px;
+          line-height: 24px;
+          color: #4a4a4a;
+        }
+        .dcty_info-btn{
+          .booking{
+            .booking_btn{
+              padding: 0px 15px;
+              background-color: #1DCBB6 !important;
+              border: 1px solid #1DCBB6 !important;
+              border-radius: 100px !important;
+              font-size: 16px;
+              font-weight: bold;
+            }
           }
         }
       }
