@@ -20,7 +20,7 @@ const Pharmacy = () => {
             <div className="pharmacy-info">
                 <div className="title">
                     <h2>Nhà thuốc trực tuyến</h2>
-                </div>
+            </div>
             <div className="line"></div>
             <p>Dễ dàng đặt trực tuyến thuốc và các sản phẩm chăm sóc sức khỏe chính hãng với giá thành hợp lý</p>
             <div className="icon">

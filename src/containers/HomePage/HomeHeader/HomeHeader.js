@@ -6,16 +6,15 @@ const HomeHeader = () => {
     <div className="HomeHeader">
       <div className="container">
         <div className="row">
-          <div className="col-9">
+          <div className="col-12">
             <div className="logo">
               <MenuOutlined className="menu_btn"></MenuOutlined>
               <a href="/homepage">
                 <img
-                  src="https://scontent.fsgn5-8.fna.fbcdn.net/v/t1.6435-9/81724555_127902035351803_6962352895480037376_n.png?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=dUcQ-PHXqwAAX8NTwKG&tn=rQ9H3rP2_jPDfj5e&_nc_ht=scontent.fsgn5-8.fna&oh=00_AT9QQ8IRshIO7jka-MRS072lxBxmC33Pl1F-5TGu7-tRdA&oe=6237B0B1"
+                  src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.4/assets/images/logo.svg"
                   alt="SunCare"
                 />
               </a>
-              <p>SunCare</p>
             </div>
             <ul className="header_content">
               <li>

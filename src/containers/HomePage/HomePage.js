@@ -7,6 +7,7 @@ import MedicalFacility from "./Sections/MedicalFacility/MedicalFacility"
 import OutStandingDoctor from "./Sections/OutStandingDoctor/OutStandingDoctor"
 import Pharmacy from "./Sections/Pharmacy/Pharmacy"
 import DoctorTeam from "./Sections/DoctorTeam/DoctorTeam"
+import VideoChat from "./Sections/VideoChat/VideoChat"
 
 
 const HomePage = () => {
@@ -17,6 +18,7 @@ const HomePage = () => {
             <DoctorComeToYou></DoctorComeToYou>
             <Pharmacy></Pharmacy>
             <DoctorTeam></DoctorTeam>
+            <VideoChat></VideoChat>
             <Specialty></Specialty>
             <MedicalFacility></MedicalFacility>
             <OutStandingDoctor></OutStandingDoctor>
