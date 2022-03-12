@@ -29,22 +29,24 @@ const VideoChat = () => {
           hay vào bất cứ lúc nào, các bác sĩ chuyên khoa của SunCare luôn sẵn
           sàng tư vấn, giải đáp đáp mọi thắc mắc của bạn.
         </p>
-      <div className="icon">
-        <div className="icon-camera">
-          <img
-            src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.4/assets/icons/video-icon.svg"
-            alt=""
+        <div className="icon">
+          <div className="icon-camera">
+            <img
+              src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.4/assets/icons/video-icon.svg"
+              alt=""
             />
-          <h3>Video call với bác sĩ</h3>
-        </div>
-        <div className="icon-chat">
-          <img
-            src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.4/assets/icons/chat-icon.svg"
-            alt=""
+            <h3>Video call với bác sĩ</h3>
+          </div>
+
+          <div className="icon-chat">
+            <img
+              src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.4/assets/icons/chat-icon.svg"
+              alt=""
             />
-          <h3>Chat với bác sĩ</h3>
+            <h3>Chat với bác sĩ</h3>
+          </div>
+          
         </div>
-            </div>
       </div>
     </div>
   );
