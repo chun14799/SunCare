@@ -16,14 +16,11 @@
                 .logo{
                     display: flex;
                     align-items: center;
-                    .menu_btn{
-    
-                    }
                     a{
                         display: block;
                         margin-left: 10px;
                         img{
-                           width: 140px;
+                           width: 200px;
                         }
                     }
                     p{
@@ -55,7 +52,14 @@
             .col-3{
                 text-align: right;
                 .icon_support{
-                    color: #45c3d2;
+                    .booking_btn{
+                        padding: 0px 15px;
+                        background-color: #4EA685 !important;
+                        border: 1px solid #4EA685 !important;
+                        border-radius: 100px !important;
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
                 }
                 span{
                     line-height: 30px;

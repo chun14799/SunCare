@@ -1,15 +1,18 @@
 import "./HomeHeader.scss";
 import { MenuOutlined, QuestionCircleOutlined } from "@ant-design/icons";
+import { Button } from 'antd';
+import { useNavigate } from "react-router-dom";
 
 const HomeHeader = () => {
+  const navigate = useNavigate()
   return (
     <div className="HomeHeader">
       <div className="container">
         <div className="row">
           <div className="col-12">
             <div className="logo">
-              <MenuOutlined className="menu_btn"></MenuOutlined>
-              <a href="/homepage">
+              {/* <MenuOutlined className="menu_btn"></MenuOutlined> */}
+              <a href="/">
                 <img
                   src="https://cdn.jiohealth.com/jio-website/home-page/jio-website-v2.1.4/assets/images/logo.svg"
                   alt="SunCare"
@@ -46,11 +49,12 @@ const HomeHeader = () => {
 
           <div className="col-3">
             <div className="support">
-              <a href="/support">
+              <a href="">
                 <span className="icon_support">
-                <QuestionCircleOutlined></QuestionCircleOutlined>
+                  <Button type="primary" className="booking_btn" onClick={()=>navigate('/register-signin')}>
+                    Đăng nhập
+                  </Button>
                 </span>
-                <span className="support"> Hỗ trợ</span>
               </a>
             </div>
           </div>
